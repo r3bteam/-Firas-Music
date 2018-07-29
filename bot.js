@@ -386,7 +386,7 @@ function play(guild, song) {
 
 
 
-const devs = ["402043862480322562" , "402043862480322562"]
+const devs = ["402043862480322562" , "307779712258670593"]
 
 const adminprefix = "F";
 client.on('message', message => {
@@ -437,7 +437,7 @@ client.on('message', message => {
 
 client.on('message', msg => {
 
-    if (msg.content == '2play') {
+    if (msg.content == 'Fjoin') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
